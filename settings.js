@@ -7,12 +7,12 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 //👉Put Your Session Id👈 කියන එක කපලා අයින් කරලා ඔයාගේ Session id එක දාන්න.
 
-SESSION_ID: process.env.SESSION_ID || "Put Your Session Id",
+SESSION_ID: process.env.SESSION_ID || "LAKA-MD=UpB1wLpJ#FGd-_OEBfuyHFoJ9bKqmD4tWTY5KCfvVTNzHaSrLaLs"
 
 
 //=================================================
 //මෙවා defult එවා කැමතිනම් false and true විතරක් වෙනස් කරගන්න..✨
-//නැත්තම් bot deploy කරහම .settings comade එක use කරලත් වෙනස් කරගන්න පුලුවන්..🎊
+//නැත්තම් bot deploy කරහම .settings comade එක use කරලත් වෙනස් රගන්න පුලුවන්..🎊
 
 PREFIX: process.env.PREFIX || '.' ,
 MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
